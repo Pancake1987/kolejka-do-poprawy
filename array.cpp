@@ -46,8 +46,5 @@ void Push(int val)
         queue_back = (queue_back + 1) % STACK_SIZE;
         queue_index++;
     }
-    else
-    {
-        printf("Queue is full!\n");
-    }
+   
 }
